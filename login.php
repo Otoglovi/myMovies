@@ -8,10 +8,10 @@
 include (dbConnect.php); //Establishing connection with database
 
 //check if the username and password have values
-if (empty($_POST["username"]) || !empty($_POST["password"]))
+if (empty($_POST["username"]))
 {
     echo "No username entered";
-}elseif (!empty($_POST["username"]) || empty($_POST["password"]))
+}elseif (empty($_POST["password"]))
 {
     echo "No password entered";
 }elseif (empty($_POST["username"]) || empty($_POST["password"]))
