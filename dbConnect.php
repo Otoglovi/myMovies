@@ -1,6 +1,6 @@
 <?php
 $connectstr_dbhost = '';
-$connectstr_dbname = 'aaa';
+$connectstr_dbname = '';
 $connectstr_dbusername = '';
 $connectstr_dbpassword = '';
 
@@ -16,9 +16,9 @@ foreach ($_SERVER as $key => $value) {
 $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
 
 define('DB_SERVER', $connectstr_dbhost);
-define('DB_USERNAME', $connectstr_dbname);
+define('DB_USERNAME', $connectstr_dbusername);
 define('DB_PASSWORD', $connectstr_dbpassword);
-define('DB_DATABASE', $connectstr_dbpassword);
+define('DB_DATABASE', $connectstr_dbname);
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
 if (!$link) {
