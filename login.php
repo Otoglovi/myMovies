@@ -7,6 +7,11 @@
  */
 include("dbConnect.php"); //Establishing connection with database
 
+print " dbhost - " . $connectstr_dbhost . "<br>";
+print " dbname- " . $connectstr_dbname . "<br>";
+print " dbusername- " . $connectstr_dbusername . "<br>";
+print " dbpassword- " . $connectstr_dbpassword . "<br>";
+
 //check if the username and password have values
 /*if (empty($_POST["username"]))
 {
