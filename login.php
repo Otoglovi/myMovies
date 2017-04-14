@@ -5,7 +5,7 @@
  * Date: 14-Apr-17
  * Time: 01:33 AM
  */
-include ("dbConnect.php"); //Establishing connection with database
+include("dbConnect.php"); //Establishing connection with database
 
 //check if the username and password have values
 /*if (empty($_POST["username"]))
