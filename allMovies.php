@@ -20,7 +20,7 @@
         $result = $link ->query($sql_query);
 
         //print headers
-        print "Movie ID ". "  ". "Year Released ". "  ". "Title". "Production Studio ". "  ". "Notes";
+        print "<h3>". "Movie ID ". "  |  ". "Year Released ". "  |  ". "Title". "  |  ". "Production Studio ". "  |  ". "Notes". "</h3>";
 
         // iterate over $result object one $row at a time
         // use fetch_array() to return an associative array
