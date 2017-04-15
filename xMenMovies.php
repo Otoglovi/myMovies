@@ -15,7 +15,7 @@
         //Establish connection with database
         include 'dbConnect.php';
         // create a SQL query as a string
-        $sql_query = "SELECT * FROM marvelmovies WHERE yearReleased LIKE '%men%';";
+        $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%men%';";
         // execute the SQL query
         $result = $link ->query($sql_query);
 
