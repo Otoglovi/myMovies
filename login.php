@@ -46,4 +46,7 @@ password = '$password'";
     }
 }
 
+$result ->close();
+$db ->close();
+
 ?>
