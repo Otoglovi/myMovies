@@ -10,7 +10,7 @@
 </header>
 <main>
     <section>
-        <h2>List of all Marvel Movies Produced after 2010</h2>
+        <h2>List of all X-Men Movies</h2>
         <?php
         //Establish connection with database
         include 'dbConnect.php';
