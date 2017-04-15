@@ -14,13 +14,9 @@
 <main>
     <section>
         <h2>You are now connected to the database</h2>
-        <?
-       // include 'dbConnect.php';
-        ?>
 
         <p><a href="allMovies.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="dbConnect.php">dbC34Aonnect</a></p>
 
     </section>
 
