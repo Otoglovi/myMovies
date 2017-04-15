@@ -15,7 +15,7 @@
     <section>
         <h2>You are now connected to the database</h2>
         <?
-        include 'dbConnect.php';
+       // include 'dbConnect.php';
         ?>
 
         <p><a href="allMovies.php">All Marvel Movies</a></p>
