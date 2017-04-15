@@ -9,21 +9,17 @@
 <h1>Hello World</h1>
 
 <header>
-    <h1>Marvel Movies</h1>
+    <h1>Welcome to Marvel Movies</h1>
 </header>
 <main>
     <section>
-        <h2>Connect to  database</h2>
+        <h2>You are now connected to the database</h2>
         <?
         include 'dbConnect.php';
-        print " dbhost - ".$connectstr_dbhost."<br>";
-        print " dbname- ".$connectstr_dbname."<br>";
-        print " dbusername- ".$connectstr_dbusername."<br>";
-        print " dbpassword- ".$connectstr_dbpassword."<br>";
         ?>
+
         <p><a href="allMovies.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="dbConnect.php">dbC34Aonnect</a></p>
 
     </section>
 
