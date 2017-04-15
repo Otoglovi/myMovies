@@ -18,11 +18,14 @@
         $sql_query = "SELECT * FROM marvelmovies";
         // execute the SQL query
         $result = $link ->query($sql_query);
+
+        //print headers
+        print "Movie ID ". "  ". "Year Released ". "  ". "Title". "Production Studio ". "  ". "Notes";
+
         // iterate over $result object one $row at a time
         // use fetch_array() to return an associative array
         while ($row = $result ->fetch_array()){
             // print out fields from row of data
-            print "Movie ID ". "  ". "Year Released ". "  ". "Title". "Production Studio ". "  ". "Notes";
             echo "<p>".$row ['marvelMovieID']. "  ". $row ['yearReleased']. "  ". $row ['title']. "  ". $row ['productionStudio']. "  ". $row ['notes']. "</p>";
         }
         $result ->close();
