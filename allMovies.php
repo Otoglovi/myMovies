@@ -22,7 +22,7 @@
         // use fetch_array() to return an associative array
         while ($row = $result ->fetch_array()){
             // print out fields from row of data
-            echo "<p>".$row ['marvelMovieID']."</p>";
+            echo "<p>".$row ['marvelMovieID']. $row ['yearReleased']. $row ['title']. "</p>";
         }
         $result ->close();
         $link;
